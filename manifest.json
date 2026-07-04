@@ -3,6 +3,12 @@
   "name": "ShainBox Clipper",
   "version": "0.1.0",
   "description": "Save images from any site straight into the ShainBox desktop app.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
   "permissions": ["storage", "alarms"],
   "host_permissions": ["<all_urls>", "http://127.0.0.1/*", "http://localhost/*"],
   "background": { "service_worker": "src/background.js" },
@@ -16,6 +22,10 @@
   ],
   "action": {
     "default_popup": "src/popup.html",
-    "default_title": "ShainBox Clipper"
+    "default_title": "ShainBox Clipper",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png"
+    }
   }
 }
