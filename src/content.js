@@ -11,14 +11,13 @@
 
 const MIN_SIZE = 100
 const APP_MARK =
-  // Simplified brand mark (blue cube on black) — dashed wireframe from the
-  // full logo is dropped: it turns to noise at 16px.
-  '<svg viewBox="0 0 1024 1024" width="16" height="16" aria-hidden="true">' +
-  '<rect width="1024" height="1024" rx="205" fill="#0A0A0A"/>' +
-  '<path d="M512 232L756 372V652L512 792L268 652V372Z" fill="#2A85FF"/></svg>'
+  // Extension-resource URL (web_accessible_resources) - immune to page CSP,
+  // unlike data: URIs which strict sites block via img-src.
+  '<img width="18" height="18" style="display:block" alt="" src="' +
+  chrome.runtime.getURL('icons/icon32.png') + '" />'
 const CHECK =
   '<svg viewBox="0 0 16 16" width="15" height="15" aria-hidden="true">' +
-  '<path d="M3.5 8.5l3 3 6-7" fill="none" stroke="#1fb36b" stroke-width="2" ' +
+  '<path d="M3.5 8.5l3 3 6-7" fill="none" stroke="#4cc98a" stroke-width="2" ' +
   'stroke-linecap="round" stroke-linejoin="round"/></svg>'
 const CHEVRON =
   '<svg viewBox="0 0 12 12" width="10" height="10" aria-hidden="true">' +
