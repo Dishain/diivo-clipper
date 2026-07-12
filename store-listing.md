@@ -42,7 +42,7 @@ cloud, no tracking, no analytics inside the extension.
 
 NEEDS THE FREE DIIVO APP
 This extension is a companion to Diivo for macOS and Windows.
-Download it at https://shain.one/diivo — free 30-day trial, then a $29
+Download it at https://shain.one/diivo/?utm_source=chrome_web_store&utm_medium=referral&utm_campaign=clipper_listing — free 30-day trial, then a $29
 one-time purchase (no subscription, free updates).
 
 WHY DIIVO
@@ -51,7 +51,7 @@ WHY DIIVO
 • OCR: text inside your screenshots is searchable too.
 • Tags, notes, favorites, source URLs — everything a reference deserves.
 
-Questions or ideas? → https://shain.one/diivo
+Questions or ideas? → https://shain.one/diivo/?utm_source=chrome_web_store&utm_medium=referral&utm_campaign=clipper_listing
 ```
 
 ## Категория и язык
